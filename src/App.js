@@ -1,9 +1,12 @@
 import './App.css';
+import Firebase from '../Firebase';
+
 
 
 const App = () => {
   return (
     <div>
+      <Firebase />
       
     </div>
   )

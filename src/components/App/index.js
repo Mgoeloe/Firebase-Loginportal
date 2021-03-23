@@ -1,7 +1,6 @@
 import React from 'react'
 import { BrowserRouter as Router, Route } from 'react-router-dom';
 
-import Firebase from '../Firebase'
 import Navigation from '../Navigation';
 import LandingPage from '../Landing';
 import SignUpPage from '../SignUp';
@@ -19,7 +18,7 @@ const App = () => {
     return (
         <div>
             <h1>App</h1>
-            <Firebase />
+            {/* <Firebase /> */}
             <Router>
                 <div>
                     <Navigation />

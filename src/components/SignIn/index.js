@@ -43,7 +43,7 @@ class SignInFormBase extends Component {
                 this.setState({ error });
             });
 
-        event.preventdefault();
+        event.preventDefault();
     };
 
     onChange = event => {
